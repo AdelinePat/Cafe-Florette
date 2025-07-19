@@ -35,7 +35,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.4;
   font-size: 14px;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
 }
 
@@ -58,7 +58,6 @@ p {
   background: white;
   color: #222;
   border: 1px solid #222;
-
 }
 
 .my-10 {
@@ -78,6 +77,30 @@ p {
   margin: auto;
 }
 
+.underline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd; 
+}
+
+.chip {
+    width: 35px;
+    border-radius: 100%;
+    background: #333;
+    color: white;
+    padding: 0px 5px;
+
+    text-align: center;
+    display: inline-block;
+}
+
+.chip-purple {
+    background: #C04191;
+    
+}
+
+.chip-brown {
+    background: #8D5E2A;
+}
 /* header */
 
 .header {
@@ -170,26 +193,42 @@ p {
 
 /* person */
 .person {
-    background: url("../images/cafe3.jpg") center 40% / cover;
-    /* background-size: cover; */
-    height: 400px;
+  background: url("../images/cafe3.jpg") center 40% / cover;
+  /* background-size: cover; */
+  height: 400px;
 }
 
 /* reservation */
 .reservation {
-    padding: 100px 0px;
-    text-align: center;
+  padding: 100px 0px;
+  text-align: center;
 }
 
 /* footer */
 footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    margin-bottom: 0px;
-    padding: 30px 0px;
+  background: #222;
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 30px 0px;
 }
 
-/* footer p {
-    margin-bottom: 0px;
-} */
+/* where */
+
+.where {
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px
+}
+
+.where-text {
+  float: right;
+  width: 50%;
+}
