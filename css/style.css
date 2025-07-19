@@ -78,28 +78,27 @@ p {
 }
 
 .underline {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ddd; 
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
 .chip {
-    width: 35px;
-    border-radius: 100%;
-    background: #333;
-    color: white;
-    padding: 0px 5px;
+  width: 35px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  padding: 0px 5px;
 
-    text-align: center;
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 .chip-purple {
-    background: #C04191;
-    
+  background: #c04191;
 }
 
 .chip-brown {
-    background: #8D5E2A;
+  background: #8d5e2a;
 }
 /* header */
 
@@ -225,10 +224,39 @@ footer {
   float: left;
   width: 45%;
   border: 1px solid #ddd;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 .where-text {
   float: right;
   width: 50%;
+}
+
+/* contact */
+.contact {
+  padding: 100px 0px;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 700;
+}
+
+.contact-form input, .contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form textarea {
+    min-height: 80px;
+    height: 20vh;
 }
