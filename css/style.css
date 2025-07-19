@@ -24,39 +24,58 @@ a {
 }
 
 p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .btn {
-    display: inline-block;
-    padding: 15px 20px;
-    border-radius: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.4;
-    font-size: 14px;
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-primary {
-    background: white;
-    color: #222;
+  background: white;
+  color: #222;
 }
 
 .btn-primary:hover {
-    color: white;
-    background: #222;
+  color: white;
+  background: #222;
+}
+
+.btn-secondary {
+  background: #222;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+
 }
 
 .my-10 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .container {
-    display: block;
-    min-width: 320px;
-    max-width: 1000px;
-    margin: auto;
+  display: block;
+  min-width: 320px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* header */
@@ -123,9 +142,9 @@ p {
 }
 
 .vp-content p {
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    line-height: 1.9em;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
 }
 
 /* separator */
@@ -138,14 +157,39 @@ p {
   /* background: #111; */
 }
 
-
 /* features */
 .features {
-    padding: 100px 8px;
-    overflow: auto;
-    
+  padding: 100px 8px;
+  overflow: auto;
+  text-align: center;
 }
 .feature {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
+
+/* person */
+.person {
+    background: url("../images/cafe3.jpg") center 40% / cover;
+    /* background-size: cover; */
+    height: 400px;
+}
+
+/* reservation */
+.reservation {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 30px 0px;
+}
+
+/* footer p {
+    margin-bottom: 0px;
+} */
